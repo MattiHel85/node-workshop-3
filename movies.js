@@ -16,7 +16,7 @@ const server = http.createServer(function(request, response) {
             url: `http://www.omdbapi.com/?s=Spider-Man&apikey=${apikey}`
         }).then(res => {
             let movies = res.data.Search;
-            response.write("<div style='text-align:center;'><h1>Spider-Man</div><br>")
+            response.write("<div style='text-align:center;'><h1>Spider-Man</h1></div><br>")
             response.write("<table style=' width:100%;margin:2;' cellpadding='5' cellspacing='0' border='solid black 2px'>")     
             response.write("<tr style='height:40px; width:450px; margin:0;'>")
             response.write("<th>Title</th><th>Released</th><th>IMDB ID</th><th>Poster</th>")
