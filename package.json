@@ -2,10 +2,10 @@
   "name": "workshop-3",
   "version": "1.0.0",
   "description": "Sample Node.js app in Heroku",
-  "main": "index.js",
+  "main": "movies.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node movies.js"
   },
   "repository": {
     "type": "git",
